@@ -1,0 +1,259 @@
+body, ul, li, blockquote, h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+  font-family: 'Bree Serif','Georgia';
+  color:#191919;
+}
+
+
+header
+{
+  background: url(img/header.png);
+  background-size: cover;
+  background-position: 50%;
+  min-height: 100vh;
+}
+
+.wrapper
+{
+  width: 96%;
+  padding: 0 2%;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+
+header .header-info
+{
+  font-size:23px;
+  padding-top: 70%;
+
+}
+
+header .header-info img
+{
+  float:left;
+  border-radius: 15px;
+  padding-left: 5px;
+}
+
+header .header-info img:after
+{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+header .header-info > *
+{
+  color:#fff;
+}
+
+header .header-info h1
+{
+  font-size: 45px;
+}
+
+.header-desc
+{
+  font-style: italic;
+  margin: 0;
+  padding-top: 23px;
+  color:#d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.article-author
+{
+  font-family: Roboto Black;
+  text-transform: uppercase;
+  font-size: 10px;
+  color:#b7bcbb;
+  float: left;
+}
+
+.article-author > span
+{
+  display: block;
+  text-transform: none;
+  font-size:11px;
+  color:adb5b4;
+}
+
+.button-side
+{
+  float:right;
+  padding-top:0.5em;
+}
+
+.button-side img
+{
+  cursor: pointer;
+}
+
+.button -side img:nth-child(2)
+{
+  padding: 0 0.5em;
+}
+
+article
+{
+  background: #3b3b3b;
+  line-height: 30px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.title
+{
+  display:none;
+}
+
+article p
+{
+  margin: 0;
+  padding-top: 15px;
+  text-align:
+}
+
+article blockquote
+{
+  text-align: center;
+  font-size: 23px;
+  color:#626262;
+  padding-top: 15px;
+}
+
+article ul > li
+{
+  list-style-type: none;
+}
+
+article li > ul > li
+{
+  list-style-type: disc;
+  margin-left: 4em;
+}
+
+article .article-up
+{
+  text-align: center;
+  padding: 50px 0 0 ;
+}
+
+article a.article-up
+{
+  display: block;
+  width: 20%;
+  margin: auto;
+  text-decoration: none;
+
+}
+
+article a.article-up  > span
+{
+  font-family: Roboto Black;
+  text-transform: uppercase;
+  font-size: 14px;
+  color:#000000;
+  letter-spacing: 2px;
+  display: block;
+}
+
+aside{
+  height: 25vh;
+  background: linear-gradient(#222222, #4c4c4c);
+  display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+aside .aside-share
+{
+  text-align: center;
+  color: #2ecc71;
+}
+
+aside a.aside-share
+{
+  display: block;
+  margin: auto;
+  width: 25%;
+  text-decoration: none;
+}
+
+footer ul
+{
+  width: 100%;
+}
+
+footer > ul > li
+{
+  list-style-type: none;
+  width: 50%;
+  height: 40vh;
+  float: left;
+  background-size: cover;
+  background-position: 50%;
+}
+
+
+footer > ul > li:first-child
+{
+
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ), url(img/aside-1.png);
+
+}
+
+footer > ul > li:last-child
+{
+
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ), url(img/aside-2.png);
+}
+
+footer > ul > li > div
+{
+  margin: 4vw 0 0 4vw;
+  font-family: Roboto Black;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #fff;
+  float: left;
+}
+
+footer > ul > li > div > h2
+{
+  margin-top: 2.5vw;
+  font-size: 22px;
+  font-family: 'Bree Serif','Georgia';
+  text-transform: none;
+}
+
+footer > ul > li > div > p
+{
+  font-size: 22px;
+  font-family:'Bree Serif','Georgia';
+  text-transform: none;
+  font-style: italic;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 700px)
+{
+  footer > ul > li
+  {
+    width: 100%
+  }
+}
